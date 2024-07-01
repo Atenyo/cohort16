@@ -2,81 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Project work</title>
-    <link href="bootstrap-5.3.3-dist (1)/css/Bootstrap.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project work</title>
+  <link href="bootstrap-5.3.3-dist (1)/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="alert alert-dark" role="alert">
-        <h1>Atenyo's Blog</h1>
-        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark" class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="blog.html">Atenyo's Blog</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="About.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="home.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    My project
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Software Engineering</a></li>
-                    <li><a class="dropdown-item" href="#">Leadership and Personal Development</a></li>
-                  </ul>
-                </li>
+  <div class="alert alert-dark" role="alert">
+    <h1>Atenyo's Blog</h1>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"
+      class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="blog.html">Atenyo's Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="home.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                My project
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Software Engineering</a></li>
+                <li><a class="dropdown-item" href="#">Leadership and Personal Development</a></li>
               </ul>
-            </div>
-          </div>
-        </nav> 
+            </li>
+          </ul>
+        </div>
       </div>
-            <img src="img/img.web.jpg" alt="lorem ipsum">
-            <img src="img/img2.jpg" alt="lorem ipsum">
-            <img src="img/img3.web.jpg" alt="lorem ipsum"
-     
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Atenyo's Blog
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#Software Engineering 004">
-                  <div class="accordion-body">
-                    <strong>In the course unit we study how to create a website.</strong>Here we study how the internet works and it's history. We learn about how to use Vs code, Git, HTML, CSS and lastly Bootstrap.<code>We go deeper into understanding them.</code>Throughout our learning you get hand on experience that you get engaged in coding. My experience was abit  challenging but also interesting since you get more curious as the course goes. During those challenges you are even more curios to learn about what happens next or how to solve your issue so as it can be a proper website.</code>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Leadership and Personal Development
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <strong>In this, we basically studied the 7 Habits of an highly effective person.<code> During the study, we also learnt how to apply those seven habits into our daily lives. Thus changing our paradigm into a more effective one. We also understood the common paradigm we normally face in our daily life deeply. Then looked at how you can turn those common paradigm into a highly effective one.</code>Later, created our mission statement that is our  long life goaols and see through on how to achieve them as we age.
-                  </div>
-                </div>
-              </div>
-             
-            
-  
-  
-            
-  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
-    </body>
-  
+    </nav>
+  </div>
+
+  <div class="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img/img.web.jpg" id="carouselimg"  class="d-block w-100" alt="lorem ipsum">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/img3.web.jpg" id="carouselimg" class="d-block w-100" alt="lorem ipsum">
+      </div>
+      <div class="carousel-item">
+        <img src="img/img4.jpg" id="carouselimg" class="d-block w-100" alt="lorem ipsum">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Atenyo Claire
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong style="color:rgb(9, 114, 35)">I am aspiring to be a wed developer.Am studying a Certificate in Software Engineering dealing mainly with Python. </strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Software Engineering 004
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong style="color:rgb(42, 165, 42)">In the course unit we study how to create a website.Here we study how the internet works and
+            it's history. We learn about how to use Vs code, Git, HTML, CSS and lastly
+            Bootstrap.We go deeper into understanding them.Throughout our learning you get hand on experience
+            that you get engaged in coding. My experience was abit challenging but also interesting since you get more
+            curious as the course goes. During those challenges you are even more curios to learn about what happens next
+            or how to solve your issue so as it can be a proper website.</strong> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Leadership and Personal Development.
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong style="color:rgb(9, 136, 30)">In this, we basically studied the 7 Habits of an highly effectiveperson. During the study, we also learnt how to apply those seven habits into our daily lives. Thus changing our paradigm into a more effective one.
+            We also understood the common paradigm we normally face in our daily life deeply. Then looked at how you can turn those common paradigm into a highly effective one.
+           Later, created our mission statement that is our long life goaols and see through on how to achieve them
+           as we age. Practice the daily habits in our daily life.
+          </strong> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="bootstrap-5.3.3-dist (1)/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
 
 </html>

@@ -1,3 +1,8 @@
 h3 {
-    color:rgba(8, 177, 36, 0.418)
+    color: rgba(8, 177, 36, 0.418)
+}
+
+*carouselimg {
+    carousel-indicator-width: 20px;
+    carousel-indicator-height: 2px;
 }
